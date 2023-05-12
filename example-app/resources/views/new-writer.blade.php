@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('file-title')Письменник@endsection
+@section('title')Письменник@endsection
 
-@section('title')
+@section('content')
     <h1>Новий письменник</h1>
     @if($author && $book)
         <p>Автор: {{$author}}</p>

@@ -1,8 +1,16 @@
 @extends('layouts.app')
 
-@section('file-title')Головна@endsection
+@section('title')Головна@endsection
 
-@section('title')
+@section('content')
     <h1>Головна сторінка</h1>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <p>Ласкаво просимо на наш веб-сайт, присвячений українським письменникам та їхнім творам!
+                Тут ви знайдете незабутні літературні шедеври, створені видатними українськими авторами з різних епох.</p>
+        </div>
+    </div>
+
 @endsection
 
