@@ -20,11 +20,10 @@
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="/" class="nav-link px-2 ">Головна</a></li>
             <li><a href="/writers" class="nav-link px-2">Письменники</a></li>
+            <li><a href="/books" class="nav-link px-2">Книги</a></li>
+            <li><a href="/genres" class="nav-link px-2">Жанри</a></li>
         </ul>
 
-        <div class="col-md-3 text-end">
-            <a href="/add" class="btn btn-primary">Додати нового автора</a>
-        </div>
     </header>
 </div>
 <div class="container">

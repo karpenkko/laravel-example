@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title'){{ $author->name }}@endsection
+@section('title'){{ $genre->title }}@endsection
 
 @section('content')
-    <h1>{{ $author->name }}</h1><br>
+    <h1>{{ $genre->title }}</h1><br>
     <p>Книги: </p>
     <div>
         <ul>
-            @foreach ($author->book as $book)
+            @foreach ($genre->book as $book)
                 <li><a href="{{route('one-book', $book->id)}}" class="nav-link px-2 ">{{$book->title}}</a></li>
             @endforeach
         </ul>
